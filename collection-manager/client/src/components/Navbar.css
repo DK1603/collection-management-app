@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .nav-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Light Theme Styles */
+.light-theme .navbar {
+  background-color: #f8f9fa; /* Lighter shade for light theme */
+  color: #333; /* Darker text color for better contrast */
+}
+
+.light-theme .navbar-logo, .light-theme .nav-link, .light-theme .nav-button {
+  color: #333; /* Darker text color for better contrast */
+}
+
+.light-theme .nav-button {
+  background-color: #17a2b8; /* Different button color for light theme */
+}
+
+/* Dark Theme Styles */
+.dark-theme .navbar {
+  background-color: #343a40; /* Bootstrap's dark theme navbar color */
+  color: #fff; /* White text color */
+}
+
+.dark-theme .navbar-logo, .dark-theme .nav-link, .dark-theme .nav-button {
+  color: #fff; /* Ensure text and buttons are visible against the dark navbar */
+}
+
+.dark-theme .nav-button {
+  background-color: #007bff; /* Bootstrap primary color for consistency */
+}
+
+/* Additional styling for hover effects */
+.nav-link:hover, .navbar-logo:hover {
+  opacity: 0.75; /* Slight opacity change on hover for better interaction feedback */
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker shade when hovering over buttons */
+  opacity: 0.9;
+}
