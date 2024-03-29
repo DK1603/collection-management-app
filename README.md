@@ -21,3 +21,25 @@ To get a local copy up and running follow these simple steps.
 - npm
   ```sh
   npm install npm@latest -g
+
+### Installation
+
+- **Install NPM packages for the backend**
+   
+   Navigate to the project directory and install the necessary packages.
+   
+   ```sh
+   cd client/src
+   npm install
+### Start the frontend server
+
+- Ensure you have a .env file in the root directory with the necessary environment variables, such as database connection strings.
+
+  ```sh
+   npm run start
+
+### Start the backend server
+ - ```sh
+   cd project_name 
+   node server.js
+ 
