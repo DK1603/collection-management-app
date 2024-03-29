@@ -5,3 +5,5 @@
 firebase-adminsdk.json
 
 node_modules/
+
+firebase-config.js
